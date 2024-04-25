@@ -2,13 +2,14 @@
 
 :root{
     --pink: #f727b8;
-    --white: #FFFFFF;
+    --pink2: #f727b8;
     --black: #000000;
+    --white: #ffffff;
 }
 body{
     background-color: var(--bg);
     color: var(--fontColor);
-   font-family: helvetica;
+    font-family: helvetica;
 
 }
 
@@ -28,15 +29,15 @@ li{
     --bg: var(--pink);
     --fontColor: var(--black);
     --btnBg: var(--black);
-    --btnFontColor: var(--white);
+    --btnFontColor: var(--pink2);
 
 
   }
 
   .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--pink);
-    --btnBg: var(--white);
+    --fontColor: var(--pink2);
+    --btnBg: var(--pink);
     --btnFontColor: var(--black);
   }
 
